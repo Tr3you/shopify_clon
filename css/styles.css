@@ -130,20 +130,12 @@ header{
 }
 
 .features-section{
-    position: relative;
-    display: flex;
-    margin-top: 120px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.features-section__card {
-    display: inline-block;
-    margin: 20px 0;
-    width: 250px;
-    max-width: 350px;
-    min-width: 220px;
+    display: grid;
+    row-gap: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 40px;
+    grid-template-columns: 1fr;
 }
 
 
@@ -183,7 +175,7 @@ header{
     gap: 20px;
     justify-content: space-evenly;
     width: 80%;
-    margin-top: 420px;
+    margin-top: 320px;
     margin-bottom: 20px;
     padding: 30px 0;
     border-top: 1px solid rgb(206, 204, 204);

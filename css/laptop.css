@@ -26,12 +26,5 @@
 
 .features-section{
     margin-top: 180px;
-    justify-content: center;
-}
-
-.features-section__card {
-    display: inline;
-    margin: 20px 10px;
-    width: 300px;
-    max-width: 450px;
+    
 }
